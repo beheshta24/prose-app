@@ -9,6 +9,7 @@ public class App {
 
         proseBuilder.register(new GreetingSentence());
         proseBuilder.register(new FarewellSentence());
+        proseBuilder.register(new TongueTwister());
 
         System.out.println(proseBuilder.get());
     }
